@@ -118,7 +118,7 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -233,7 +233,7 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
+@media screen and (max-height: 500px) {
   .six .hat {
     left: 40%;
   }
