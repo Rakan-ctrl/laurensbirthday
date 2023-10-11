@@ -304,3 +304,7 @@ const resolveFetch = () => {
 };
 
 resolveFetch().then(animationTimeline());
+
+function playAudio(url) {
+  new Audio(url).play();
+}
